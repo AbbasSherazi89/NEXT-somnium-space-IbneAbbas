@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nosifer&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&display=swap");
+
+.main {
+  padding: 60px 0px 200px 0px;
+  color: #fff;
+  background-image: url("../Media/vrworld-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Anek Devanagari", sans-serif;
+
+  .row1 {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-size: 28px;
+      font-weight: 400;
+      text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+      color: #fff !important;
+      margin: 0 !important;
+    }
+    h1{
+        font-size: 54px;
+        font-weight: 700;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff !important;
+        margin: 0 !important;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff !important;
+    margin: 0 !important;
+  }
+  h3{
+    color: #b9e7ff;
+      font-size: 30px;
+      font-weight: 700;
+      text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+      margin: 0 !important;
+  }
+
+}
