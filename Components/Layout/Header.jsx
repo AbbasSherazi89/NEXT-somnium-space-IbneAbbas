@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../../styles/Header.module.scss";
 import { ImMenu } from "react-icons/im";
-import { AiFillWindows } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import {
   BsFacebook,
@@ -39,19 +38,6 @@ const Header = () => {
             <div className="mr-auto">
               <button className={styles.navBtn}>Explore Somnium Map</button>
               <button className={styles.navBtn2}>Marketplace</button>
-            </div>
-            <div className={styles.cornerDiv}>
-              <div className={styles.cornerbtn1}>
-                <p>
-                  Download VR Client{" "}
-                  <AiFillWindows className={styles.windowIcons} size={25} />{" "}
-                </p>
-              </div>
-              <div className={styles.cornerbtn2}>
-                <p>
-                  Join SOMNIUM <span>WEB</span>{" "}
-                </p>
-              </div>
             </div>
           </div>
         </nav>

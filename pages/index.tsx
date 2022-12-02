@@ -1,14 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Header from "../Components/Layout/Header";
+import Navbar from "../Components/Layout/Navbar";
 import Footer from "../Components/Layout/Footer";
 import HomePage from "./HomePage";
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <Header />
+        {/* <Header /> */}
+        <Navbar />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"

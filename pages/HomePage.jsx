@@ -7,6 +7,8 @@ import VirtualReality from "../Components/Elements/VirtualReality";
 import InGame from "../Components/Elements/InGame";
 import Partners from "../Components/Elements/Partners";
 import FooterTop from "../Components/Elements/FooterTop";
+import Events from "../Components/Elements/Events";
+import Community from "../Components/Elements/Community";
 const HomePage = () => {
   return (
     <div>
@@ -20,6 +22,8 @@ const HomePage = () => {
       <Available />
       <Partners />
       <Available />
+      <Events />
+      <Community />
       <FooterTop />
     </div>
   );

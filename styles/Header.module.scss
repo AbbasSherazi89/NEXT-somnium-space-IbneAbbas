@@ -39,70 +39,83 @@
     opacity: 1;
     border: 3px solid #10a96e;
   }
-  .cornerDiv {
-    .cornerbtn1 {
-        font-family: "Anek Devanagari", sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: radial-gradient(circle, #fff 19%, #1290ff 100%);
-      clip-path: polygon(22% 0, 100% 0, 100% 100%, 11% 100%);
-      height: 40px;
-      width: 300px;
-      position: relative;
-      border:2px solid #fff;
-      p {
-        font-family: "Anek Devanagari", sans-serif;
-        font-size: 16px;
-        margin-bottom: 0;
-        font-weight: 600;
-        color: #08f;
-        display: flex;
-      }
-      .windowIcons {
-        margin-left: 15px;
-      }
-    }
-    .cornerbtn2 {
-        font-family: "Anek Devanagari", sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(
-        90deg,
-        #9c2b00 0,
-        #e45600 33%,
-        #f05d00 40%,
-        #f35f00 46%,
-        #ee5c00 50%,
-        #dc5100 60%,
-        #841d00
-      );
-      clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 100%);
-      height: 40px;
-      width: 300px;
-      position: relative;
-      border:2px solid #dc5100;
-      p {
-        font-family: "Anek Devanagari", sans-serif;
-        font-size: 16px;
-        margin-bottom: 0;
-        font-weight: 600;
-        color: #fff;
-
-        span {
-        font-family: "Anek Devanagari", sans-serif;
-          background-color: #ff6500;
-          border-radius: 5px;
-          color: #fff;
-          font-size: 18px;
-          margin-left: 15px;
-        }
-      }
-    }
-  }
+ 
   .navIcons{
     display: flex;
     flex-direction: row;
   }
+}
+
+.cornerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  .cornerbtn1 {
+      font-family: "Anek Devanagari", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, #fff 19%, #1290ff 100%);
+    clip-path: polygon(22% 0, 100% 0, 100% 100%, 11% 100%);
+    height: 40px;
+    width: 300px;
+    position: relative;
+    border:2px solid #fff;
+    p {
+      font-family: "Anek Devanagari", sans-serif;
+      font-size: 16px;
+      margin-bottom: 0;
+      font-weight: 600;
+      color: #08f;
+      display: flex;
+    }
+    .windowIcons {
+      margin-left: 15px;
+    }
+  }
+  .cornerbtn2 {
+      font-family: "Anek Devanagari", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      #9c2b00 0,
+      #e45600 33%,
+      #f05d00 40%,
+      #f35f00 46%,
+      #ee5c00 50%,
+      #dc5100 60%,
+      #841d00
+    );
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 100%);
+    height: 40px;
+    width: 300px;
+    position: relative;
+    border:2px solid #dc5100;
+    p {
+      font-family: "Anek Devanagari", sans-serif;
+      font-size: 16px;
+      margin-bottom: 0;
+      font-weight: 600;
+      color: #fff;
+
+      span {
+      font-family: "Anek Devanagari", sans-serif;
+        background-color: #ff6500;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 18px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.navbarMain{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #ffff;
 }
