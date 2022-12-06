@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import Navbar from "../Components/Layout/Navbar";
 import Footer from "../Components/Layout/Footer";
+import Hero from "Components/Elements/Hero";
 import HomePage from "./HomePage";
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      <Hero />
         <HomePage/>
       </main>
 
