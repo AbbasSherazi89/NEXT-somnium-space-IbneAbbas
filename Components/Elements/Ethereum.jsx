@@ -11,23 +11,23 @@ const Ethereum = () => {
           <div className="row2">
             <div className="col-md-8 d-flex align-item-center justify-content-center">
               <div>
-                <img src="assets/polygon.png" alt="" width={280} />
+                <img className="etherum-topimages" src="assets/polygon.png" alt="" />
               </div>
               <div className="mx-5">
                 <p>in Partnership with</p>
               </div>
               <div>
-                <img src="assets/holaplex.png" alt="" width={280} />
+                <img className="etherum-topimages" src="assets/holaplex.png" alt="" />
               </div>
             </div>
           </div>
           <div className="row3">
             <div className="col-md-6 d-flex align-item-center justify-content-center">
               <div>
-                <img src="assets/opensea.png" alt="" width={280} />
+                <img className="etherum-topimages" src="assets/opensea.png" alt="" />
               </div>
               <div>
-                <img src="assets/ftx.png" alt="" width={280} />
+                <img className="etherum-topimages" src="assets/ftx.png" alt="" />
               </div>
             </div>
           </div>

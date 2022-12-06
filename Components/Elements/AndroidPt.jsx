@@ -10,28 +10,28 @@ const AndroidPt = () => {
                 <img src="assets/android.png" alt="" width={120}/>
                 </div>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 col-xs-4 mt-3">
               <img src="assets/mrtv.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/zoomin.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/venture.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/focus.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/road.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/pcgamer.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/coin.png" alt="" width={120}/>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-1 mt-3">
               <img src="assets/forbes.png" alt="" width={120}/>
             </div>
           </div>

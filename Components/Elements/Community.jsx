@@ -4,38 +4,39 @@ const Community = () => {
   return (
     <>
       <section className="community">
-        <div className="row1">
-          <h4>KEEP IN TOUCH WITH</h4>
-          <h2>SOMNIUM COMMUNITY</h2>
-          <h3>Share your thoughts with Us and the World</h3>
-          <div className="paraDiv">
-            <p className="text-center">
-              We are an open social world. Our community is the most important
-              thing. We are active and happy to answer every question through
-              our live channels or through our social channels.
-            </p>
+        <div className="container">
+          <div className="row row1 text-center py-5">
+            <h4>KEEP IN TOUCH WITH</h4>
+            <h2>SOMNIUM COMMUNITY</h2>
+            <h3>Share your thoughts with Us and the World</h3>
+            <div className="paraDiv">
+              <p className="text-center">
+                We are an open social world. Our community is the most important
+                thing. We are active and happy to answer every question through
+                our live channels or through our social channels.
+              </p>
+            </div>
           </div>
-          <FaDiscord className="discord" size={50} color="#fff" />
-        </div>
-
-<div>
-    
-</div>
-          <div className="row2">
+          <div className="text-center">
+            <FaDiscord className="discord" size={50} color="#fff" />
+          </div>
+          <div className="row row2 py-5">
             <div className="col-md-4">
-              <FaTwitter className="discord" size={50} color="#fff" />
-              <div className="twitter">
+              <div className="text-center">
+                <FaTwitter className="discord" size={50} color="#fff" />
+              </div>
+              <div>
                 <iframe
                   id="twitter-widget-1"
                   scrolling="no"
                   frameborder="0"
                   allowtransparency="true"
                   allowfullscreen="true"
-                  class=""
+                  className="twitter-border"
                   style={{
                     position: "static",
                     visibility: "visible",
-                    width: "500px",
+                    width: "100%",
                     height: "600px",
                     display: "block",
                     flexGrow: "1",
@@ -45,22 +46,26 @@ const Community = () => {
                 ></iframe>
               </div>
             </div>
-            <div className="col-md-1" />
+            <div className="col-md-1"/>
             <div className="col-md-4">
-              <FaFacebookF className="discord" size={50} color="#fff" />
+              <div className="text-center">
+                <FaFacebookF className="discord" size={50} color="#fff" />
+              </div>
               <div className="facebook">
-              <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
-              width="500"
-              height="600"
-              scrolling="no"
-              frameborder="0"
-              allow="encrypted-media"
-             
-            ></iframe>
+                <iframe
+                className="facebook-border"
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
+                  width="100%"
+                  height="600"
+                  scrolling="no"
+                  frameborder="0"
+                  allowfullscreen="true"
+                  allow="encrypted-media"
+                ></iframe>
               </div>
             </div>
           </div>
+        </div>
       </section>
     </>
   );

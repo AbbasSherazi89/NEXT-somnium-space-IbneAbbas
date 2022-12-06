@@ -124,7 +124,7 @@ const Hero = () => {
       </div>
       <div className="captionImages">
         <img
-          className="position-absolute"
+          className="position-absolute sideimg"
           id="sideimg"
           src="assets/unity.png"
           alt=""

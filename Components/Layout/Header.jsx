@@ -39,8 +39,8 @@ const Header = () => {
               <li className="navItem">Events</li>
             </ul>
             <div className="mr-auto">
-              <button className="navBtn">Explore Somnium Map</button>
-              <button className="navBtn2">Marketplace</button>
+              <button className="navBtn mt-2">Explore Somnium Map</button>
+              <button className="navBtn2 mt-2">Marketplace</button>
             </div>
           </div>
         </nav>

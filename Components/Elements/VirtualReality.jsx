@@ -14,11 +14,23 @@ const VirtualReality = () => {
           <div className="row">
             <div className="col-md-3">
               <div className="col1">
-
-              <p >We are creating an Open, Social, Virtual Reality world. A world with its own economy and its own currency. A VR world with its own Marketplace, Games, Social experiences and Virtual Land ownership.</p>
-              <div>
-                <img className="pcClient" src="assets/PC_client.png" alt="" />
-              </div>
+                <p>
+                  We are creating an Open, Social, Virtual Reality world. A
+                  world with its own economy and its own currency. A VR world
+                  with its own Marketplace, Games, Social experiences and
+                  Virtual Land ownership.
+                </p>
+                <div>
+                  <img
+                    className="pcClient img-fluid"
+                    src="assets/PC_client.png"
+                    alt=""
+                  />
+                  <div className="text-right">
+                    <p>Chat, Build,</p>
+                    <p>Trade in dedicated Somnium PC client</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col-md-6">
@@ -30,22 +42,24 @@ const VirtualReality = () => {
             </div>
             <div className="col-md-3">
               <div className="col2">
-              <p>A VR world which is fully interconnected and seamless. Fully accessible from any device: PC & VR clients for user's Desktop or an immersive VR experience on mobile devices.</p>
-              <div className="mt-5">
-              <img src="assets/doorbeen.png" alt="" width={400}/>
+                <p>
+                  A VR world which is fully interconnected and seamless. Fully
+                  accessible from any device: PC & VR clients for user's Desktop
+                  or an immersive VR experience on mobile devices.
+                </p>
+                <div className="mt-5">
+                  <img
+                    className="doorbeen-img img-fluid"
+                    src="assets/doorbeen.png"
+                    alt=""
+                    width={400}
+                  />
+                  <div className="text-center mt-3">
+                    <p>Oculus Quest</p>
+                    <p>Compatible</p>
+                  </div>
+                </div>
               </div>
-              </div>
-            </div>
-          </div>
-          <div className='row '>
-            <div className="col-md-4 text-right">
-              <p>Chat, Build,</p>
-              <p>Trade in dedicated Somnium PC client</p>
-            </div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4 text-center">
-             <p>Oculus Quest</p>
-             <p>Compatible</p>
             </div>
           </div>
         </div>
