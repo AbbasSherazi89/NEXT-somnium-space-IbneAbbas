@@ -1,15 +1,14 @@
 import React from "react";
-import styles from "../../styles/Ethereum.module.scss";
 const Ethereum = () => {
   return (
     <>
-      <section className={styles.main1}>
-        <div className={styles.container1}>
-          <div className={styles.row1}>
+      <section className="ethereum">
+        <div className="container1">
+          <div className="row1">
             <h3>True Ownership of In-Game Assets on</h3>
             <h2>ETHEREUM & SOLANA BLOCKCHAIN</h2>
           </div>
-          <div className={styles.row2}>
+          <div className="row2">
             <div className="col-md-8 d-flex align-item-center justify-content-center">
               <div>
                 <img src="assets/polygon.png" alt="" width={280} />
@@ -22,7 +21,7 @@ const Ethereum = () => {
               </div>
             </div>
           </div>
-          <div className={styles.row3}>
+          <div className="row3">
             <div className="col-md-6 d-flex align-item-center justify-content-center">
               <div>
                 <img src="assets/opensea.png" alt="" width={280} />
@@ -33,35 +32,35 @@ const Ethereum = () => {
             </div>
           </div>
         </div>
-        <div className={styles.shoesdiv}>
-          <img className={styles.shoes} src="assets/shoes.png" alt="" />
+        <div className="shoesdiv">
+          <img className="shoes" src="assets/shoes.png" alt="" />
           <img
-            className={styles.shoesshadow}
+            className="shoesshadow"
             src="assets/shoes-shadow.png"
             alt=""
             
           />
         </div>
-        <div className={styles.contactdiv}>
-          <img className={styles.contact} src="assets/contact.png" alt="" />
+        <div className="contactdiv">
+          <img className="contact" src="assets/contact.png" alt="" />
           <img
-            className={styles.contactshadow}
+            className="contactshadow"
             src="assets/contact-shadow.png"
             alt=""
           />
         </div>
-        <div className={styles.locationdiv}>
-          <img className={styles.location} src="assets/map-symbol.png" alt="" />
+        <div className="locationdiv">
+          <img className="location" src="assets/map-symbol.png" alt="" />
           <img
-            className={styles.locationshadow}
+            className="locationshadow"
             src="assets/map-symbolshadow.png"
             alt=""
           />
         </div>
-        <div className={styles.watchdiv}>
-          <img className={styles.watch} src="assets/watch.png" alt="" />
+        <div className="watchdiv">
+          <img className="watch" src="assets/watch.png" alt="" />
           <img
-            className={styles.watchshadow}
+            className="watchshadow"
             src="assets/watch-shadow.png"
             alt=""
           />

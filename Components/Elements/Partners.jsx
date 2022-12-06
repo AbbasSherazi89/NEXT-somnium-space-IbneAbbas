@@ -1,14 +1,12 @@
 import React from "react";
-import styles from "../../styles/Partners.module.scss";
-
 const Partners = () => {
   return (
     <>
-      <section className={styles.main}>
+      <section className="partners">
         <div className="container">
-          <div className={styles.row1}>
+          <div className="row1">
             <h3>SOMNIUM SPACE</h3>
-            <h1>INGAME MECHANICS</h1>
+            <h1>PARTNERS</h1>
           </div>
         </div>
         <div className="container">

@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../../styles/Footer.module.scss";
 const Footer = () => {
   return (
-    <footer className={styles.footerMain}>
+    <footer className="footerMain">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4">

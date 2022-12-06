@@ -1,12 +1,10 @@
 import React from "react";
-import styles from "../../styles/VirtualReality.module.scss";
-
 const VirtualReality = () => {
   return (
     <>
-      <section className={styles.main}>
-        <div className={styles.container}>
-          <div className={styles.row1}>
+      <section className="virtual-reality">
+        <div className="container">
+          <div className="row1">
             <h3>SOMNIUM SPACE IS A</h3>
             <h1>VIRTUAL REALITY WORLD</h1>
             <h3>Open, Social & Persistent</h3>
@@ -15,11 +13,11 @@ const VirtualReality = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <div className={styles.col1}>
+              <div className="col1">
 
               <p >We are creating an Open, Social, Virtual Reality world. A world with its own economy and its own currency. A VR world with its own Marketplace, Games, Social experiences and Virtual Land ownership.</p>
               <div>
-                <img className={styles.pcClient} src="assets/PC_client.png" alt="" />
+                <img className="pcClient" src="assets/PC_client.png" alt="" />
               </div>
               </div>
             </div>
@@ -31,7 +29,7 @@ const VirtualReality = () => {
               </div>
             </div>
             <div className="col-md-3">
-              <div className={styles.col2}>
+              <div className="col2">
               <p>A VR world which is fully interconnected and seamless. Fully accessible from any device: PC & VR clients for user's Desktop or an immersive VR experience on mobile devices.</p>
               <div className="mt-5">
               <img src="assets/doorbeen.png" alt="" width={400}/>

@@ -1,13 +1,12 @@
 import React from "react";
-import styles from "../../styles/Android.module.scss";
 const AndroidPt = () => {
   return (
     <>
-      <section className={styles.android}>
-        <div className={styles.container}>
+      <section className="android">
+        <div className="container">
           <div className="row d-flex align-item-center justify-content-around">
             <div className="col-md-1">
-                <div className={styles.images}>
+                <div className="images">
                 <img src="assets/android.png" alt="" width={120}/>
                 </div>
             </div>

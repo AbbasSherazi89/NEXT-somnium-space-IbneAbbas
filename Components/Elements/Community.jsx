@@ -1,31 +1,30 @@
 import React from "react";
-import styles from "../../styles/Community.module.scss";
 import { FaDiscord, FaFacebookF, FaTwitter } from "react-icons/fa";
 const Community = () => {
   return (
     <>
-      <section className={styles.main}>
-        <div className={styles.row1}>
+      <section className="community">
+        <div className="row1">
           <h4>KEEP IN TOUCH WITH</h4>
           <h2>SOMNIUM COMMUNITY</h2>
           <h3>Share your thoughts with Us and the World</h3>
-          <div className={styles.paraDiv}>
+          <div className="paraDiv">
             <p className="text-center">
               We are an open social world. Our community is the most important
               thing. We are active and happy to answer every question through
               our live channels or through our social channels.
             </p>
           </div>
-          <FaDiscord className={styles.discord} size={50} color="#fff" />
+          <FaDiscord className="discord" size={50} color="#fff" />
         </div>
 
 <div>
     
 </div>
-          <div className={styles.row2}>
+          <div className="row2">
             <div className="col-md-4">
-              <FaTwitter className={styles.discord} size={50} color="#fff" />
-              <div className={styles.twitter}>
+              <FaTwitter className="discord" size={50} color="#fff" />
+              <div className="twitter">
                 <iframe
                   id="twitter-widget-1"
                   scrolling="no"
@@ -48,8 +47,8 @@ const Community = () => {
             </div>
             <div className="col-md-1" />
             <div className="col-md-4">
-              <FaFacebookF className={styles.discord} size={50} color="#fff" />
-              <div className={styles.facebook}>
+              <FaFacebookF className="discord" size={50} color="#fff" />
+              <div className="facebook">
               <iframe
               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSomniumSpace&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
               width="500"

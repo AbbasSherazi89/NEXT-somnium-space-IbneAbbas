@@ -1,11 +1,9 @@
 import React from "react";
-// import {BGvideo} from '../../public/assets/bgvideo.mp4'
-import styles from "../../styles/Hero.module.scss";
 import Carousel from "react-bootstrap/Carousel";
 const Hero = () => {
   return (
-    <>
-      <div className={styles.carousel}>
+    <section className="hero">
+      <div className="hero-inner">
         <Carousel interval={null}>
           <Carousel.Item>
             <video
@@ -52,8 +50,8 @@ const Hero = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className={styles.carouselCaption}>
-        <div className={styles.caption1}>
+      <div className="carouselCaption">
+        <div className="caption1">
           <img
             src="assets/caption1-img.png"
             alt=""
@@ -81,7 +79,7 @@ const Hero = () => {
             Download
           </p>
           <div
-            className={styles.accessCube}
+            className="accessCube"
             style={{ color: "#fff", marginLeft: "32%", marginTop: "5%" }}
           >
             Access CUBEs
@@ -124,9 +122,10 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className={styles.captionImages}>
+      <div className="captionImages">
         <img
           className="position-absolute"
+          id="sideimg"
           src="assets/unity.png"
           alt=""
           style={{ marginLeft: "80%", marginTop: "-55%" }}
@@ -154,7 +153,7 @@ const Hero = () => {
           width={250}
         />
       </div>
-    </>
+    </section>
   );
 };
 

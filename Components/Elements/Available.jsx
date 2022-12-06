@@ -1,10 +1,8 @@
 import React from "react";
-import styles from "../../styles/Available.module.scss";
-
 const Available = () => {
   return (
     <>
-      <section className={styles.main}>
+      <section className="available">
         <div className="container">
         <div className="row ">
           <div className="col-md-3 align-item-center justify-content-center">

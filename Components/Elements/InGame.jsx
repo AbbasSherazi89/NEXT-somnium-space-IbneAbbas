@@ -1,12 +1,10 @@
 import React from "react";
-import styles from "../../styles/InGame.module.scss";
-
 const InGame = () => {
   return (
     <>
-      <section className={styles.main}>
+      <section className="ingame">
         <div className="container">
-          <div className={styles.row1}>
+          <div className="row1">
             <h3>SOMNIUM SPACE</h3>
             <h1>INGAME MECHANICS</h1>
           </div>
